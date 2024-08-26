@@ -9,7 +9,9 @@ function getElementWidth(content, padding, border) {
   return getElementWidth;
 }
 
-const content = "60px";
-const padding = "12px";
-const border = "8.5px";
+const content = "50px";
+const padding = "8px";
+const border = "4px";
 getElementWidth(content, padding, border);
+getElementWidth("60px", "12px", "8.5px");
+getElementWidth("200px", "0px", "0px");

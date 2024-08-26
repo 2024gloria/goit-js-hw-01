@@ -11,3 +11,5 @@ function makeTransaction(quantity, pricePerDroid) {
 const quantity = 5;
 const pricePerDroid = 3000;
 makeTransaction(quantity, pricePerDroid);
+makeTransaction(3, 1000);
+makeTransaction(10, 500);

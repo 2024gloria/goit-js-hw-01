@@ -12,3 +12,5 @@ const country = "Australia";
 const price = 120;
 const deliveryFee = 50;
 getShippingMessage(country, price, deliveryFee);
+getShippingMessage("Germany", 80, 20);
+getShippingMessage("Sweden", 100, 20);
